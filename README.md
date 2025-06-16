@@ -1,16 +1,19 @@
 # Flask REST API - Book Library
 
-This is a simple REST API built using Flask to manage a list of books. The API supports retrieving all books and searching a book by ID.
+This is a simple REST API built using **Flask**. It allows you to manage a list of books with basic operations such as create, read, update, and delete (CRUD).
 
-## 📁 Files
+## 🔧 Features
 
-- `app.py` – Main application file
-- `books.json` – JSON file containing book data
-- `requirements.txt` – Python dependencies
+- `GET /books` → Get all books
+- `GET /books/<id>` → Get a single book by ID
+- `POST /books` → Add a new book
+- `PUT /books/<id>` → Update a book
+- `DELETE /books/<id>` → Delete a book
 
-## ▶️ Running the App
+## 🚀 How to Run
 
-1. Install dependencies:
+1. Make sure Python is installed
+2. Open terminal and install Flask:
 
 ```bash
-pip install -r requirements.txt
+pip install flask
